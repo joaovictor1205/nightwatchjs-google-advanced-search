@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="0"
+            failures="1"
             tests="1">
 
   <testsuite name="teste"
-    errors="0" failures="0" hostname="" id="" package="teste" skipped="0"
-    tests="1" time="1.372" timestamp="">
+    errors="0" failures="1" hostname="" id="" package="teste" skipped="0"
+    tests="1" time="13.24" timestamp="">
   
-    <testcase name="Test Case - Form Google Advanced Search" classname="teste" time="1.372" assertions="1">
+    <testcase name="Test Case - Form Google Advanced Search" classname="teste" time="13.24" assertions="2">
 
-    
+      <failure message="Query is Test in 1000 ms. - expected [0;32m&#34;as_q=Test&#34;[0m but got: [0;31m&#34;https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fas_q%3DTest%26as_epq%3D%26as_oq%3D%26as_eq%3D%26as_nlo%3D%26as_nhi%3D%26lr%3Dlang_pt%26cr%3D%26as_qdr%3Dm%26as_sitesearch%3D%26as_occt%3Dany%26safe%3Dimages%26as_filetype%3D%26as_rights%3D&amp;q=EgTI6e0KGJvckuoFIhkA8aeDS6xntglcDi7JG8gFC9ZGX26kh4yJMgFy&#34;[0m">    at Object.Test Case - Form Google Advanced Search (/home/joao/Área de Trabalho/nightwatchjs/tests/teste.js:32:21)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:188:7)</failure>
+
+    <failure message="    at Object.Test Case - Form Google Advanced Search (/home/joao/Área de Trabalho/nightwatchjs/tests/teste.js:32:21)">    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:188:7)</failure>
     </testcase>
   
 
