@@ -17,7 +17,7 @@ module.exports = {
 
         const resultsPageQuerySelector = `#searchform input[name="q"][value="${mainQuery}"]`;
         const resultsPageLanguageSelector = '.hdtb-mn-hd[aria-label="Pesquisar páginas em Português"]';
-        const resultsPageUpdateSelector = '.hdtb-mn-hd[aria-label="No último mês"]';
+        const resultsPageUpdateSelector = '.hdtb-mn-hd[aria-label=" No último mês"]';
 
         browser
             .url('http://google.com/advanced_search')
