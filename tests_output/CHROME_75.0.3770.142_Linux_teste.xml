@@ -5,11 +5,9 @@
 
   <testsuite name="teste"
     errors="0" failures="0" hostname="" id="" package="teste" skipped="0"
-    tests="1" time="1.671" timestamp="">
+    tests="1" time="1.372" timestamp="">
   
-    <testcase name="Test Case" classname="teste" time="1.671" assertions="2">
-
-    
+    <testcase name="Test Case - Form Google Advanced Search" classname="teste" time="1.372" assertions="1">
 
     
     </testcase>
