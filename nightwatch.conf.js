@@ -10,13 +10,6 @@ module.exports = {
   
     "test_settings" : {
       "default" : {
-
-        'screenshots':{
-          'enabled': true,
-          'on_failure': true,
-          'on_error': true,
-          'path':'tests_output/screenshots'
-        },
         "desiredCapabilities": {
           "browserName": "chrome",
           'chromeOptions': {
