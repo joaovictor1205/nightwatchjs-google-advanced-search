@@ -1,6 +1,8 @@
 module.exports = {
 
     '@tags': ['googleAdvancedSearch'],
+    '@enabled': false,
+
     'Test Case - Form Google Advanced Search' : function (browser) {
 
         const mainQuery = 'Test';
