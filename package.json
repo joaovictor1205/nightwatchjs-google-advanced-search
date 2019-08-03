@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "nightwatch"
+    "test": "nightwatch",
+    "debug": "node --inspect-brk node_modules/.bin/nightwatch"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "chromedriver": "^75.0.1",
-    "nightwatch": "^1.1.13"
+    "nightwatch": "^1.1.13",
+    "npx": "^10.2.0"
   }
 }
