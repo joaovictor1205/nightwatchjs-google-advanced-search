@@ -33,8 +33,8 @@ module.exports = {
             .assert.urlContains('as_qdr=m', 'Time period is last month')
 
         browser.assert.visible(resultsPageQuerySelector, 'Query Search OK');
-        browser.assert.containsText(resultsPageLanguageSelector, 'Query Language OK');
-        browser.assert.containsText(resultsPageUpdateSelector, 'Query Update OK');
+        browser.assert.containsText(resultsPageLanguageSelector, 'Pesquisar páginas em Português', 'Query Language OK');
+        browser.assert.containsText(resultsPageUpdateSelector, 'No último mês', 'Query Update OK');
 
         browser.saveScreenshot('tests_output/google.png');
 
