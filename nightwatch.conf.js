@@ -8,14 +8,20 @@ module.exports = {
       "port": 9515
     },
   
-    "test_settings" : {
-      "default" : {
-        "desiredCapabilities": {
-          "browserName": "chrome",
-          'chromeOptions': {
-            'args':['--headless']
+    'test_settings': {
+      'default': {
+          'screenshots': {
+              'enabled': true,
+              'on_failure': true,
+              'on_error': true,
+              'path': 'tests_output/screenshots'
+          },
+          'desiredCapabilities': {
+              'browserName': 'chrome',
+              'chromeOptions': {
+                  'args': ['--headless']
+              }
           }
-        }
-      } 
-    }
+      }
+  }
 }
